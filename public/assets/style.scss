@@ -1,0 +1,26 @@
+
+#container {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  place-items: center;
+
+}
+
+.box {
+  display: flex;
+  box-sizing: border-box;
+  place-items: center;
+  justify-content: center;
+  width: 100%;
+
+  .box-wrapper {
+    margin: 0 auto;
+  }
+
+  .inner-center {
+    padding: 1em;
+  }
+}
